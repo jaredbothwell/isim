@@ -18,7 +18,7 @@ A CLI tool for quickly launching and managing iOS Simulators.
 
 ```sh
 # Clone the repo
-git clone <repo-url> ~/projects/isim
+git clone https://github.com/jaredbothwell/isim.git ~/projects/isim
 
 # Symlink into your PATH
 ln -s ~/projects/isim/isim ~/.local/bin/isim
@@ -26,7 +26,7 @@ ln -s ~/projects/isim/isim ~/.local/bin/isim
 
 ## Usage
 
-```
+```txt
 isim                      Launch the default simulator
 isim list [filter]        List available simulators
 isim launch <query>       Launch by name, OS version, or UDID
